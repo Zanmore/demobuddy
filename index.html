@@ -10,41 +10,32 @@
   display: flex;
 }
 
-/* Create two equal columns that sits next to each other */
+
 .column {
   flex: 50%;
   padding: 10px;
-  height: fit-content; /* Should be removed. Only for demonstration */
+  height: 800px; 
 }
 </style>
 </head>
 <body>
     <link rel="stylesheet" type="text/css" href="Demo Buddy.css">
 <h2><center>Demo Buddy!</center></h2>
-<center><input type=number> Employees</input type=number></center><br/>
+<center><input type=number> EE's</input type=number></center><br/>
 <center><input type = number> Price</input type=number></center><br/>
 
-<div class="row">
-  <div class="column" style="background-color:rgb(74, 156, 115);">
-    <h2><center><p>Level of Delegation</p></center></h2>
-        <input type="checkbox" name="Government" value="Gov't">
-        <label for="Government"> Government</label><br>
-      
-        <input type="checkbox" name="Dave Fan" value="Dave Fan">
-        <label for="Dave Fan"> Dave Fan</label><br>
-      
-        <input type="checkbox" name="Info Gathering" value="Info Gathering">
-        <label for="Info Gathering"> Info Gathering</label><br>
-      
-      <input type="checkbox" name="Report to C-Level" value="Report to C-Level">
-        <label for="Report to C-Level"> Report to C-Level</label><br>
-      
-        <input type="checkbox" name="My Decision Ultimately" value="My Decision Ultimately">
-        <label for="My Decision Ultimately"> My Decision Ultimately</label><br>
-      
-        <input type="checkbox" name="Completely My Decision" value="Completely My Decision">
-        <label for="Completely My Decision"> Completely My Decision</label><br><br>
-      
+<div class="column" style="background-color:rgb(69, 71, 70);">
+  <h2><center><p>Level of Delegation</p></center></h2>
+<form action="">
+<input type="radio" name='delegation' value='Government'> Government<br>
+<input type="radio" name='delegation' value='Dave Fan'> Dave Fan<br>
+<input type="radio" name='delegation' value='Info Gathering'> Info Gathering<br>
+<input type="radio" name='delegation' value='Report to C-Level'> Report to C-Level<br>
+<input type="radio" name='delegation' value='My Decision Ultimately'> My Decision Ultimately<br>
+<input type="radio" name='delegation' value='Completely my decision'> Completely My Decision<br>
+</form>
+
+
       <h2><p><center> What led you to reaching out?</center></p></h2>
       <input type="checkbox" name="Input">
       <label for = "Input">FPU</label><br>
@@ -89,7 +80,7 @@
   </div>
 
 
-  <div class="column" style="background-color:rgba(0, 128, 128, 1);">
+  <div class="column" style="background-color:rgb(69, 71, 70);">
     <h2><center><p>Dave Familiarity</p></center></h2>
         <input type="checkbox" name="Input">
         <label for = "Input">Never heard of him.</label><br>
@@ -152,7 +143,7 @@
         <input type="checkbox" name="Input">
         <label for = "Input">Vetting other vendors</label><br>
         
-          <br>
+          <br><br>
           <input type="submit" value="Submit">
         </form>
   </div>
