@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box; box-shadow: 5px;
+}
+.row {
+  display: flex;
+}
+
+
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 800px; 
+}
+</style>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="Demo Buddy.css">
+    <script src = 'app.js'></script>
+<h2><center>Demo Buddy!</center></h2>
+<center><input type=number id="eeInput"> EE's</input type=number></center><br/>
+<center><input type = number> Price</input type=number></center><br/>
+
+<p id= 'display'></p>
+
+<div class="column" style="background-color:rgb(121, 121, 121);">
+  <h2><center><p>Level of Delegation</p></center></h2>
+<input type="radio" name='delegation' value='Government'> Government<br>
+<input type="radio" name='delegation' value='Dave Fan'> Dave Fan<br>
+<input type="radio" name='delegation' value='Info Gathering'> Info Gathering<br>
+<input type="radio" name='delegation' value='Report to C-Level'> Report to C-Level<br>
+<input type="radio" name='delegation' value='My Decision Ultimately'> My Decision Ultimately<br>
+<input type="radio" name='delegation' value='Completely my decision'> Completely My Decision<br>
+
+
+      <h2><p><center> What led you to reaching out?</center></p></h2>
+      <input type="checkbox" name="Input" id="FPU">
+      <label for = "FPU">FPU</label><br>
+      <input type="checkbox" name="Input" id='help ee'>
+      <label for = "help ee">Want to help ee.</label><br>
+      <input type="checkbox" name="Input" id="Wellness Program Establishment">
+      <label for = "Wellness Program Establishment">Wellness Program Establishment</label><br>
+      <input type="checkbox" name="Input" id = "Paycheck to Paycheck">
+      <label for = "Paycheck to Paycheck">Paycheck to Paycheck</label><br>
+      <input type="checkbox" name="Input" id = "Seasonal Work">
+      <label for = "Seasonal Work">Seasonal Work</label><br>
+      <input type="checkbox" name="Input" id = "Expensive living">
+      <label for = "Expensive living">Expensive living</label><br>
+      <input type="checkbox" name="Input" id = "Expensive Vehicles">
+      <label for = "Expensive Vehicles">Expensive Vehicles</label><br>
+      <input type="checkbox" name="Input" id = "401k participation low">
+      <label for = "401k participation low">401k participation low</label><br>
+      <input type="checkbox" name="Input" id = "401k Loans">
+      <label for = "401k Loans">401k Loans</label><br>
+      <input type="checkbox" name="Input" id = "Payday loan advances" >
+      <label for = "Payday loan advances">Payday loan advances</label><br>
+      <input type="checkbox" name="Input" id = "They're making good money">
+      <label for = "They're making good money">They're making good money</label><br>
+      <input type="checkbox" name="Input" id = "Retention and attraction">
+      <label for = "Retention and attraction">Retention and attraction</label><br>
+      <input type="checkbox" name="Input" id = "Increase money management skills">
+      <label for = "Input">Increase money management skills</label><br>
+      <input type="checkbox" name="Input" id = "Budgeting">
+      <label for = "Budgeting">Budgeting</label><br>
+      <input type="checkbox" name="Input" id = "Irregular Income">
+      <label for = "Irregular Income">Irregular Income</label><br>
+      <input type="checkbox" name="Input" id = "Basic education needed">
+      <label for = "Basic education needed">Basic education needed</label><br>
+      <input type="checkbox" name="Input" id = "Remote workers">
+      <label for = "Remote workers">Remote workers</label><br>
+      <input type="checkbox" name="Input" id = "Legacy/Retirement Planning">
+      <label for = "Legacy/Retirement Planning">Legacy/Retirement Planning</label><br>
+
+      <h2><center><p>What is the business problem you're trying to solve?</p></center></h2>
+      <center><textarea id="w3review" name="w3review" rows="4" cols="50"></textarea><br></center> <br/><br/>
+
+  </div>
+
+
+  <div class="column" style="background-color:rgb(121, 121, 121);">
+    <h2><center><p>Dave Familiarity</p></center></h2>
+        <input type="checkbox" name="Input" id = "Never heard of him.">
+        <label for = "Never heard of him.">Never heard of him.</label><br>
+        <input type="checkbox" name="Input" id = "He's the money guy.">
+        <label for = "He's the money guy.">He's the money guy.</label><br>
+        <input type="checkbox" name="Input" id = "Read the books.">
+        <label for = "Read the books.">Read the books.</label><br>
+        <input type="checkbox" name="Input" id = "Knows a company that has SD.">
+        <label for = "Input">Knows a company that has SD.</label><br>
+        <input type="checkbox" name="Input" id = "ELP">
+        <label for = "ELP">ELP</label><br>
+        <input type="checkbox" name="Input" id = "EntreLeadership">
+        <label for = "EntreLeadership">EntreLeadership</label><br>
+        <input type="checkbox" name="Input" id = "Youtube">
+        <label for = "Youtube">Youtube</label><br>
+        <input type="checkbox" name="Input" id = "CEO/Boss is a Dave fan.">
+        <label for = "CEO/Boss is a Dave fan.">CEO/Boss is a Dave fan.</label><br>
+        <input type="checkbox" name="Input" id = "EveryDollar user">
+        <label for = "EveryDollar user">EveryDollar user</label><br>
+        <input type="checkbox" name="Input" id = "FPU">
+        <label for = "FPU">FPU</label><br>
+        <input type="checkbox" name="Input" id = "Taught FPU">
+        <label for = "Taught FPU">Taught FPU</label><br>
+        <input type="checkbox" name="Input" id = "Working Baby Steps">
+        <label for = "Working Baby Steps">Working Baby Steps</label><br>
+        <input type="checkbox" name="Input" id = "Podcast">
+        <label for = "Podcast">Podcast</label><br>
+        <input type="checkbox" name="Input" id = "Podcast Everyday">
+        <label for = "Podcast Everyday">Podcast Everyday</label><br>
+        <input type="checkbox" name="Input" id = "Sat in Dave's chair.">
+        <label for = "Sat in Dave's chair.">Sat in Dave's chair.</label><br>
+        
+        <h2><center><p>Objections</p></h2></center>
+        <input type="checkbox" name="Input" id = "Obj: Want FPU">
+        <label for = "Obj: Want FPU">Want FPU</label><br>
+        <input type="checkbox" name="Input" id = "Obj: Want Licenses">
+        <label for = "Obj: Want Licenses">Want Licenses</label><br>
+        <input type="checkbox" name="Input" id = "Obj: Participation concern">
+        <label for = "Obj: Participation concern">Participation Concern</label><br>
+        <input type="checkbox" name="Input" id = "Obj: Launch and leave?">
+        <label for = "Obj: Launch and leave?">Launch and leave?</label><br>
+        <input type="checkbox" name="Input" id = "Obj: Value">
+        <label for = "Obj: Value">Value</label><br>
+        <input type="checkbox" name="Input" id = "Obj: Engagement">
+        <label for = "Obj: Engagement">Engagement</label><br>
+        <input type="checkbox" name="Input" id = "Obj: Time Requirement">
+        <label for = "Obj: Time Requirement">Time Requirement</label><br>
+        <input type="checkbox" name="Input" id = "Obj: Price">
+        <label for = "Obj: Price">Price</label><br>
+        <input type="checkbox" name="Input" id = "Obj: ROI">
+        <label for = "Obj: ROI">ROI</label><br>
+        <input type="checkbox" name="Input" id = "Obj: Religion">
+        <label for = "Obj: Religion">Religion</label><br>
+        <input type="checkbox" name="Input" id = "Obj: Language Barrier">
+        <label for = "Obj: Language Barrier">Language Barrier</label><br>
+        <input type="checkbox" name="Input" id = "Obj: Skin in the game">
+        <label for = "Obj: Skin in the game">Skin in the game.</label><br>
+        <input type="checkbox" name="Input" id = "Obj: Not Tech Savvy">
+        <label for = "Obj: Not Tech Savvy">Not tech savvy</label><br>
+        <input type="checkbox" name="Input" id = "Obj: Vetting other vendors">
+        <label for = "Obj: Vetting other vendors">Vetting other vendors</label><br>
+        
+          <br><br>
+          <button onclick="submitForm()">"Submit"</button>
+      </div>
+    </div>
+</body>
+</html>
